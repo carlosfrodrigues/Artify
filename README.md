@@ -1,7 +1,7 @@
 # Artify
 Many artists seem to struggle with promoting their art, this platform help artists to share their work with art enthusiasts. Artify is all built in JS, using express for backend Api, React for the frontend and React Native for the mobile App.
 
-Special Thanks to [Daniela Castro](https://www.behance.net/danicastro) incredible art designer(and my girlfriend :D) who made the login page artwork.
+Special Thanks to [Daniela Castro](https://www.behance.net/danicastro) incredible art designer(and my girlfriend :D) who made the login page [artwork](https://raw.githubusercontent.com/carlosfrodrigues/Artify/master/frontend/src/assets/art.png).
 
 ![artifyweb](https://raw.githubusercontent.com/carlosfrodrigues/Artify/master/github/artifyusing.gif)
 
