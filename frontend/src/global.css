@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;
+
+}
+button{
+    cursor: pointer;
+}
+
+form input{
+    width: 100%;
+    height: 50px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+form textarea{
+    width: 100%;
+    min-height: 140px;
+    height: 60px;
+    resize: vertical;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
+
+label[for="file-input"] {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #fff;
+    opacity: .9;
+    font-weight: bold;
+}
+  
+input[type="file"] {
+    border: none;
+    padding: 5px 12px;
+
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.fileUpload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="file"] .button {
+    border: none;
+}
+
+.button {
+    float:right;
+    margin-top: 35px;
+    background: transparent;
+    border: 1px solid #e02041;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 60px;
+    color: #e02041;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover{
+    color: white;
+    background-color: #e02041;
+}
+
+
+.back-link{
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+    color: #41414D;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-link svg{
+    margin-right: 8px;
+}
+
+.back-link:hover{
+    opacity: 0.8;
+}
