@@ -8,7 +8,13 @@ Special Thanks to [Daniela Castro](https://www.behance.net/danicastro) incredibl
 <img src="https://raw.githubusercontent.com/carlosfrodrigues/Artify/master/github/artifyappflow.gif" width="337px" height="694px"/>
 
 ## How to run:
-You need [node, npm](https://nodejs.org/en/) and [expo](https://expo.io/) installed in your computer.
+At first, you will need [node, npm](https://nodejs.org/en/) and [expo](https://expo.io/) installed in your computer.
+
+Second step: install dependencies, run in each folder(backend, frontend, mobile):
+```
+npm install
+````
+
 run this inside the frontend and backend folder:
 ``` 
 npm start
