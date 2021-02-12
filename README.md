@@ -24,3 +24,7 @@ for the mobile app you need to put your IP in the file mobile/src/config.js and 
 ``` 
 expo start
 ```
+
+
+
+⚡built during the 11th [Rocketseat Omnistack week](https://rocketseat.com.br/)
